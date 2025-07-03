@@ -9,7 +9,7 @@ type UserTableProps = {
 export default function UserTable({ users, onUserClick }: UserTableProps) {
   return (
     //div que evita o overflow
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto mx-auto max-w-[1200px]">
       {/*tabela*/}
       <table className="w-full border-collapse border border-gray-300 min-w-[600px]">
         {/*cabeçalho tabela*/}
